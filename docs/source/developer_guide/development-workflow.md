@@ -29,6 +29,12 @@ This section describes the steps necessary to build Elyra in a development envir
 * Install Miniconda
 Download and install a [Python 3 version of Miniconda](https://docs.conda.io/en/latest/miniconda.html) according to your Operating System
 
+> If you are using WSL2 ubuntu run
+>    ```
+>    ./miniconda3/bin/conda init
+>    ```
+>    to create the path to conda in the Ubuntu Terminal before running these commands
+
 * Create a new Python environment
 
     ```
