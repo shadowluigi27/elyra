@@ -5,9 +5,11 @@ We initially took on this issue as we were told to start with issues labeled wit
 After 2 weeks, we were able to finally get in contact with Alex Bozarth, who was familiar with the issue, and told us that the issue we were working on was to be a specific use case of a much larger issue that has not been resolved yet ( https://github.com/elyra-ai/elyra/issues/1064   ), and as such we would need to implement the entire system for us to accomplish this task. We did brainstorm some initial ideas for the implementation of the code with him, but as our first issue it was too large a task for us to accomplish in a reasonable time frame. 
 
 As of Friday 7/22, the issue is to be scrapped entirely
-![image info](Issue Deprecaited.jpg)
+![Issue Deprecaited](https://user-images.githubusercontent.com/72285616/180506060-c505b6ef-eab4-4b43-86e0-1ec7a0ddb747.jpg)
 
 
 We looked at these resources during our time researching snackbar and we were able to understand how to setup instances of a snackbar for a single file.
+
 https://mui.com/material-ui/react-snackbar/ 
+
 https://fkhadra.github.io/react-toastify/introduction. 
