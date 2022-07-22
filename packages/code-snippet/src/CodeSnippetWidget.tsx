@@ -462,6 +462,26 @@ class CodeSnippetDisplay extends MetadataDisplay<
   getDisplayName(metadata: IMetadata): string {
     return `[${metadata.metadata.language}] ${metadata.display_name}`;
   }
+  getLanguageDisplay(metadata: IMetadata): string {
+
+      switch(metadata.metadata.language){
+
+        case 'Python':
+
+        case 'R':
+          return 'elyra:pyIcon';
+
+        case 'Java':
+
+        case 'Scala':
+
+        case 'Markdown':
+
+        default:
+          return this.getDisplayName(metadata);
+
+      }
+    }
 
   sortMetadata(): void {
     this.props.metadata.sort((a, b) =>
