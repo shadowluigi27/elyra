@@ -1,0 +1,13 @@
+Aarnav/Shane #Issue 1064 https://github.com/elyra-ai/elyra/issues/1006 
+
+We initially took on this issue as we were told to start with issues labeled with “good first issue” and started work on issue #1006, which was to create a popup notification whenever a file was saved in the elyra pipeline editor. However, this issue proved to be more troublesome than initially thought. We had issues trying to understand where in the codebase we would need to make our changes and what functions had already been set up for the snackbar. The external mentors who were in charge of the weekly meetings said they weren’t familiar with the frontend of the codebase and required another Elyra head to help.
+
+After 2 weeks, we were able to finally get in contact with Alex Bozarth, who was familiar with the issue, and told us that the issue we were working on was to be a specific use case of a much larger issue that has not been resolved yet ( https://github.com/elyra-ai/elyra/issues/1064   ), and as such we would need to implement the entire system for us to accomplish this task. We did brainstorm some initial ideas for the implementation of the code with him, but as our first issue it was too large a task for us to accomplish in a reasonable time frame. 
+
+As of Friday 7/22, the issue is to be scrapped entirely
+![image info](Issue Deprecaited.jpg)
+
+
+We looked at these resources during our time researching snackbar and we were able to understand how to setup instances of a snackbar for a single file.
+https://mui.com/material-ui/react-snackbar/ 
+https://fkhadra.github.io/react-toastify/introduction. 
