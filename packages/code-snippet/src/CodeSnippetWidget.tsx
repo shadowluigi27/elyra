@@ -31,7 +31,9 @@ import {
   ExpandableComponent,
   importIcon,
   RequestErrors,
-  trashIcon
+  trashIcon,
+  pyIcon,
+  rIcon
 } from '@elyra/ui-components';
 
 import { JupyterFrontEnd } from '@jupyterlab/application';
@@ -462,23 +464,23 @@ class CodeSnippetDisplay extends MetadataDisplay<
   getDisplayName(metadata: IMetadata): string {
     return `[${metadata.metadata.language}] ${metadata.display_name}`;
   }
-  getLanguageDisplay(metadata: IMetadata): string {
+
+  getRenderedDisplay(metadata: IMetadata): HTMLElement{
+
+  }
+
+  getIconDisplay(metadata: IMetadata): LabIcon {
 
       switch(metadata.metadata.language){
-
         case 'Python':
-
+          return pyIcon;
         case 'R':
-          return 'elyra:pyIcon';
-
-        case 'Java':
-
-        case 'Scala':
-
-        case 'Markdown':
-
+          return rIcon;
+        //case 'Java':
+        //case 'Scala':
+        //case 'Markdown':
         default:
-          return this.getDisplayName(metadata);
+          return return rIcon;;
 
       }
     }
