@@ -1,13 +1,23 @@
+Meeting with Alan for issue #1007
 
 
-Find which calls to displayname are actually rendered.
+Overview:
+Icons broke 2 years ago, changed to 'Lab icons', they made workaround in the mean time.
 
-returns the html-element
 
-look into LabIcon calls
+Information/Notes:
 
-Look at index 67
+We want the new function to return the html-element
 
-.element() puts into Dom
+Look at index 67, has some use for lab-Icons
+
+.element() puts icon  into Dom element
 
 .react() creates an react-element to be placed somewhere (use in render)
+
+
+
+Action Items:
+Find which calls to displayname are actually rendered.
+
+look into LabIcon calls
