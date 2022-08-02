@@ -1,0 +1,13 @@
+
+
+Find which calls to displayname are actually rendered.
+
+returns the html-element
+
+look into LabIcon calls
+
+Look at index 67
+
+.element() puts into Dom
+
+.react() creates an react-element to be placed somewhere (use in render)
